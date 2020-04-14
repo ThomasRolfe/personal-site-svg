@@ -1,0 +1,99 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+}
+svg {
+  width: 600px;
+  align-self: center;
+  justify-self: center;
+  /* margin-left: 500px; */
+}
+
+#site-planning {
+  animation-duration: 3s;
+  animation-name: animatePage;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  /* mix-blend-mode: screen; */
+}
+
+#site-code {
+  animation-duration: 3s;
+  animation-name: animatePage;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  /* mix-blend-mode: screen; */
+}
+
+#site-back {
+  animation-duration: 3s;
+  animation-name: animatePage;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+  /* mix-blend-mode: screen; */
+}
+
+#site-front {
+  animation-duration: 3s;
+  animation-name: animatePage;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  /* mix-blend-mode: screen; */
+}
+
+@keyframes animatePage {
+  from {
+    transform: translateX(0) translateY(0);
+  }
+
+  to {
+    transform: translateX(-18px) translateY(18px);
+  }
+}
+
+@keyframes animateFront {
+  from {
+    transform: translateX(0) translateY(0);
+  }
+
+  to {
+    transform: translateX(-5px) translateY(5px);
+  }
+}
+.st0 {
+  fill: #999999;
+}
+.st1 {
+  fill: #2c5b85;
+}
+.st2 {
+  fill: #e6e6e6;
+}
+.st3 {
+  fill: #4d9ee6;
+}
+.st4 {
+  fill: #336999;
+}
+.st5 {
+  fill: #f2f2f2;
+}
+.st6 {
+  fill: #a8a8a8;
+}
